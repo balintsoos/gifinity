@@ -1,0 +1,2 @@
+# gifinity
+Watch GIFs endlessly
