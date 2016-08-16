@@ -1,0 +1,44 @@
+{
+  "name": "gifinity",
+  "version": "0.0.1",
+  "description": "Watch GIFs endlessly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./src/index.js -o ./src/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://balintsoos@github.com/balintsoos/gifinity.git"
+  },
+  "keywords": [
+    "gif",
+    "infinity",
+    "gifinity",
+    "giphy"
+  ],
+  "author": {
+    "name": "Balint Soos",
+    "email": "soosbalint95@gmail.com",
+    "url": "http://balintsoos.com/"
+  },
+  "contributors": [
+    {
+      "name": "Balint Soos",
+      "email": "soosbalint95@gmail.com",
+      "url": "http://balintsoos.com/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balintsoos/gifinity/issues"
+  },
+  "homepage": "https://github.com/balintsoos/gifinity#readme",
+  "dependencies": {
+    "knockout": "3.4.0",
+    "request": "2.74.0"
+  },
+  "devDependencies": {
+    "browserify": "13.1.0"
+  }
+}
